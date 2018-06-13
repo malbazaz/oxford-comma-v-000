@@ -9,16 +9,8 @@ return small_string
   newnumb=array.length
   newnumb-=1 
   lastword = array[newnumb]
-  
+newlastword = " and #{lastword}"  
   longstring << newlastword
   return longstring
-
-
-minuslastarray = []
-minuslastarray=  temp_array
-minuslastarray.pop
-newlastword = " and #{lastword}"
-minuslastarray << newlastword
-return minuslastarray
 end
 end
