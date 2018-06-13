@@ -9,7 +9,7 @@ newnumb=array.length
   lastword = array[newnumb]
 array.pop
  longstring =array.join(y)
-newlastword = " and #{lastword}"  
+newlastword = ", and #{lastword}"  
   longstring << newlastword
   return longstring
 end
