@@ -4,7 +4,7 @@ small_string= array.join(x)
 return small_string
   elsif array.length>2
   y=", "
-  newarray=[]
+
  newarray=array.pop
  longstring = newarray.join(y)
   newnumb=array.length
