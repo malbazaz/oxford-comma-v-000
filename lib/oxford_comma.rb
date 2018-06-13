@@ -1,13 +1,19 @@
 def oxford_comma(array, x=" and ",y=", ")
   if array.length<3
-old_array= array.join(x)
-return old_array
+small_string= array.join(x)
+return small_string
   elsif array.length>2
   y=", "
- temp_array = array.join(y)
-  newnumb=temp_array.length
+ newarray=array.pop
+ longstring = newarray.join(y)
+  newnumb=array.length
   newnumb-=1 
-  lastword = temp_array[newnumb]
+  lastword = array[newnumb]
+  
+  longstring << newlastword
+  return longstring
+
+
 minuslastarray = []
 minuslastarray=  temp_array
 minuslastarray.pop
